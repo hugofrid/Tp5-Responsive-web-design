@@ -22,6 +22,8 @@ a {
     padding: 25px 0;
 }
 
+
+
 body > header {
     margin-bottom: 20px;
     background: white;
@@ -215,6 +217,50 @@ nav a.top { background: url("../img/icon/top.png") no-repeat 0px; }
 nav a.new { background: url("../img/icon/new.png") no-repeat 0px; }
 nav a.collection { background: url("../img/icon/collection.png") no-repeat 0px; }
 nav a.history { background: url("../img/icon/history.png") no-repeat 0px; }
+
+
+@media screen and (max-width: 760px)
+{
+    .wrapper form input[type=search]
+    {
+        display: none;
+    }
+
+
+}
+
+
+
+@media screen and (max-width: 600px)
+{
+
+  html
+    {
+        font-size: 90%;
+    }
+}
+
+
+@media screen and (max-width: 1400px)
+{
+    html
+    {
+        font-size: 115%;
+    }
+}
+
+@media only screen and (max-width: 450px)
+{
+     html
+    {
+        font-size: 70%;
+    }
+
+    .name p img
+    {
+        display: none;
+    }
+}
 
 
 
